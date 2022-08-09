@@ -126,11 +126,6 @@ i {
   }
 }
 @media (min-height: 524px) and (max-height: 765px) and (min-width: 600px) {
-  section {
-    flex-direction: row;
-  }
-}
-@media (max-height: 523px) {
   div {
     display: grid;
     padding: 0;
