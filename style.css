@@ -113,7 +113,7 @@ i {
   }
 }
 
-@media (min-width: 401px) and (max-width: 800px) {
+@media (min-width: 401px) and (max-width: 600px) {
   h1 {
     font-size: 3rem;
   }
@@ -125,7 +125,7 @@ i {
     height: 95vh;
   }
 }
-@media (min-height: 700px) and (min-width: 600px) {
+@media (min-height: 700px) and (min-width: 900px) {
   div {
     display: grid;
     padding: 1rem;
