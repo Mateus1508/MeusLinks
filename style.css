@@ -128,9 +128,10 @@ i {
 @media (min-height: 700px) and (min-width: 800px) and (min-height: 700px) {
   div {
     display: grid;
-    padding: 0;
+    padding: 1rem;
     width: 90vw;
-    margin: 0.5rem;
+    height: 90vh;
+    margin: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
@@ -152,6 +153,7 @@ i {
   }
   section {
     grid-row: 3;
+    justify-self: center;
     grid-column: 1/4;
     flex-direction: row;
   }
