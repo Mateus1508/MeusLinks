@@ -113,7 +113,7 @@ i {
   }
 }
 
-@media (min-width: 401px) and (max-width: 800px) and (min-width: 600px) {
+@media (min-width: 401px) and (max-width: 800px) and (min-height: 600px) {
   h1 {
     font-size: 3rem;
   }
