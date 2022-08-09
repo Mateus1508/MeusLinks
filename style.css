@@ -100,7 +100,7 @@ i {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   h1 {
     font-size: 3rem;
   }
