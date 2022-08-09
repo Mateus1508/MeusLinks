@@ -6,6 +6,7 @@
   color: #000;
   font-weight: 50px;
   font-family: "Sora", sans-serif;
+  text-shadow: 0px 0px 3px #222;
 }
 html {
   background: linear-gradient(70deg, #833ab4, #22c1c3, #ff0000) no-repeat;
@@ -47,6 +48,10 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+}
+section {
+  display: flex;
+  flex-direction: column;
 }
 a {
   background-color: #90e0ef;
@@ -118,5 +123,41 @@ i {
   div {
     padding: 2rem;
     height: 95vh;
+  }
+}
+@media (min-height: 524px) and (max-height: 765px) {
+  section {
+    flex-direction: row;
+  }
+}
+@media (max-height: 523px) {
+  div {
+    display: grid;
+    padding: 0;
+    width: 90vw;
+    margin: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  img {
+    grid-column: 2/4;
+    grid-row: 1;
+    align-self: center;
+  }
+  h1 {
+    grid-column: 2/4;
+    grid-row: 1;
+    text-align: center;
+  }
+  h3 {
+    grid-row: 1;
+    grid-column: 2/4;
+    text-align: center;
+    align-self: flex-end;
+  }
+  section {
+    grid-row: 2;
+    grid-column: 3;
+    flex-direction: row;
   }
 }
