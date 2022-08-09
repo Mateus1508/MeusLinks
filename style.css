@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-weight: 50px;
+  font-family: "Sora", sans-serif;
+}
+html {
+  background: linear-gradient(70deg, #833ab4, #22c1c3, #ff0000) no-repeat;
+  animation: bgAnimation 30s linear infinite;
+  background-size: 600% 300%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-content: center;
+}
+div {
+  margin-top: 20px;
+  padding: 3rem;
+  height: 90vh;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+}
+h1 {
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+}
+h3 {
+  color: #fff;
+  margin: 1rem 0;
+}
+img {
+  margin-top: 5rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+a {
+  background-color: #90e0ef;
+  color: #fff;
+  box-shadow: 0 0 15px #90e0ef;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s ease-in;
+}
+.instagram:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.linkedin:hover {
+  background-color: #0072b1;
+}
+.github:hover {
+  background-color: #000;
+}
+.portfolio:hover {
+  background-color: #4361ee;
+}
+i {
+  color: #fff;
+}
+
+@keyframes bgAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
